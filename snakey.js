@@ -11,7 +11,7 @@ function main(currentTime) {
         if (confirm('Game Over!.\nPress ok to restart.\nPress cancel to go back home.')) {
             window.location = 'snake.html'
         }else{
-            window.location = 'main.html'
+            window.location = 'index.html'
         }
         return
     }
